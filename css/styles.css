@@ -230,14 +230,10 @@ p {
 .form-modal {
   min-width: 448px;
   min-height: 342px;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 
 .text-head {
-  margin-top: 38px;
   margin-bottom: 12px;
-
   font-size: 20px;
   line-height: 23px;
   text-align: center;
@@ -378,6 +374,10 @@ textarea {
   background-origin: border-box;
 }
 
+.checkbox:focus + .icon-input-checkbox {
+  border-color: var(--accent-color);
+}
+
 .checkbox {
   position: absolute;
   width: 1px;
@@ -394,7 +394,6 @@ textarea {
 
 .button-submit {
   margin-top: 30px;
-  margin-bottom: 42px;
   padding: 10px 56px;
   border: none;
 
@@ -908,6 +907,7 @@ textarea {
 
 .modal {
   position: absolute;
+  padding: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
