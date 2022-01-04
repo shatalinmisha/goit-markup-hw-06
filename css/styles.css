@@ -338,9 +338,9 @@ textarea {
 }
 
 .text-privacy {
-  position: relative;
-  display: inline-block;
-  padding-left: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   font-size: 14px;
   line-height: 24px;
@@ -356,10 +356,8 @@ textarea {
 }
 
 .icon-input-checkbox {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
+  display: inline-block;
+  margin-right: 7px;
   width: 15px;
   height: 15px;
   border: 2px solid var(--title-text-color);
